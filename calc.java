@@ -12,5 +12,10 @@ public class calc {
         double y = sc2.nextDouble();
         double z=x*y/100;// вычисление %
         System.out.println("результат: "+y+"% от "+x+" это "+z);
+        System.out.println("введите обменный курс $");
+        Scanner sc3 = new Scanner(System.in);
+        double a = sc3.nextDouble();
+        double b = z*a;
+        System.out.println(z+"$="+b+" рублей");
     }
 }
