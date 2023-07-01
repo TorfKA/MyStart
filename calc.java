@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class calc {
     public static void main(String[] args) {
 
-//калькулятор для вычисления % от исходного числа, только целые числа. Как сделать что бы программа работала при вводе не целых чисел?
+//калькулятор для вычисления % от исходного числа
         Scanner sc1 = new Scanner(System.in);//прерменная sc1 статновится сканнером ввода
         System.out.println("введите число от которого требуется вычислить %");
         double x = sc1.nextDouble();
