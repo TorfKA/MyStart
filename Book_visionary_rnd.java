@@ -28,8 +28,7 @@ public class Book_visionary_rnd {
         Scanner sc3 = new Scanner(System.in);
         System.out.println("enter the quantity of line on your page");
         int z = sc3.nextInt();
-        for(int i = 0;i<1;i++){
-            System.out.println("the number of your prediction line is "+generateRandomNumber(z));
+        System.out.println("the number of your prediction line is "+generateRandomNumber(z));
         }
     }
     
